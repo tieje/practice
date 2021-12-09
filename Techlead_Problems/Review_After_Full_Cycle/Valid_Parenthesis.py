@@ -5,6 +5,7 @@ Return True if valid. Return False otherwise.
 '''
 from collections import defaultdict
 
+
 def valid_parenthesis(string):
     '''
     Initial Strategy:
@@ -48,6 +49,8 @@ def valid_parenthesis(string):
             print('failed at final p_string_dict check')
             return False
     return True
+
+
 '''
 # Tests
 a = '()({([])})'
@@ -67,3 +70,46 @@ print(valid_parenthesis(c))
 # False
 '''
 # I failed. Below is the actual solution:
+# https://www.techseries.dev/products/coderpro/categories/1831147/posts/6228788
+'''
+proper data structure
+stack
+Must use first in, last out FILO stack.
+O(n) time
+O(n) space
+'''
+
+# "class Foo:" is the same as "class Foo(object):"
+
+
+class Solution(object):
+    def isValid(self, s):
+        # I got this right
+        parens = {
+            '[': ']',
+            '{': '}',
+            '(': ')',
+        }
+        # inverse map of parens so right can match to left
+        inv_parens = {v: k for k, v in parens.items()}
+
+        stack = []
+        for c in s:
+            # if char is left parens then append stack
+            if c in parens:
+                stack.append(c)
+            # if last char is matching right parens remove
+            # left parens from stack
+            elif c in inv_parens:
+                if len(stack) == 0 or stack[-1] != inv_parens[c]:
+                    return False
+                else:
+                    stack.pop()
+        return len(stack) == 0
+
+
+print(Solution().isValid('(){([])}'))
+# True
+
+print(Solution().isValid('(){(['))
+# False
