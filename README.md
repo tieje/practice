@@ -14,3 +14,4 @@ I want to spend an hour practicing coding problems every day.
 # Things I have learned
 
 1. How to let go of an idea if I run out of time.
+2. The Techlead's solutions are not always good. I might need to try leetcode instead.
