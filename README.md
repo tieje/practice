@@ -1,4 +1,4 @@
-# Daily-Coding-Practice
+# Practice
 I want to spend an hour practicing coding problems every day.
 
 # Practice Strategy
