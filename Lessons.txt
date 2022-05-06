@@ -1,8 +1,11 @@
 The following is a list of adages that I have learned from studying coding problems.
 
-When iterating through a list
+- When iterating through a list
     - store the list items in a hash table so you can look them up later.
         https://leetcode.com/problems/two-sum/
+- Identify all cases ASAP
+- Do not let the solution for one case, influence the solution for another case until you're sure they're related
+    https://leetcode.com/problems/roman-to-integer/
 
 Problem for next time:
 https://leetcode.com/problems/add-two-numbers/

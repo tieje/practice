@@ -28,3 +28,11 @@ I would like to use the curated list because it's mostly for people who are begi
 But most of the problems are for premium users. Sheesh.
 
 https://leetcode.com/problem-list/top-interview-questions/
+
+My approach will be to:
+1. Attempt the problem. Or at least think about how you would attempt the problem.
+2. Look at the Solution. Try to understand internally.
+3. Explain the problem to an empty chair.
+
+Not all problems clearly indicate if the solution is free or not.
+I'm going to go through all the tech lead problems first and get them down before I consider buying a leetcode subscription.
