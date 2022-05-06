@@ -11,6 +11,9 @@ Command to create shortcut for creating Techlead problems
 I've decided to use what I've paid for first.
 My current process will be:
 1. Create a new python file. The title will simply be a copy and paste of the problem title.
+    1. Create the file.
+    2. `cd Techlead_Problems`
+    3. `pybangs`
 2. Work on the problem for about half an hour.
 3. Look at the solution and try to explain it to an empty chair.
 4. Move the file to the Solution_Archive. I don't think I'll ever look at these solutions again, but I may as well keep them just in case.
