@@ -15,3 +15,5 @@ I want to spend an hour practicing coding problems every day.
 
 1. How to let go of an idea if I run out of time.
 2. The Techlead's solutions are not always good. I might need to try leetcode instead.
+
+# Bought Annual Subscription to leetcode on June 4th 2022
